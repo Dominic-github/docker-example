@@ -5,6 +5,3 @@ services:
     ports:
       - '${MAILHOG_PORT}:1025'
       - '${MAILHOG_WEB_PORT}:8025'
-volumes:
-  redis:
-    driver: local
